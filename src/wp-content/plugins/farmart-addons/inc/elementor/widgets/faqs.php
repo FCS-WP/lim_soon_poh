@@ -72,7 +72,7 @@ class Faqs extends Widget_Base {
 	 * Section Content
 	 */
 	protected function section_content() {
-		$section = apply_filters( 'farmart_faqs_section_number', 3 );
+		$section = apply_filters( 'farmart_faqs_section_number', 4 );
 
 		for ( $i = 1; $i <= $section; $i ++ ) {
 			$this->start_controls_section(
@@ -816,7 +816,7 @@ class Faqs extends Widget_Base {
 		];
 
 		$this->add_render_attribute( 'wrapper', 'class', $classes );
-		$section       = apply_filters( 'farmart_faqs_section_number', 3 );
+		$section       = apply_filters( 'farmart_faqs_section_number', 4 );
 		$output        = [ ];
 		$output_time   = [ ];
 		$output_events = [ ];
