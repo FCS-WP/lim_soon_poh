@@ -1,0 +1,14 @@
+.farmart-svg-icon {
+    color: var(--e-global-color-primary) !important;
+}
+
+ul.products {
+    li.product {
+        .woocommerce-loop-product__title {
+            a {
+                color: var(--e-global-color-primary) !important;
+
+            }
+        }
+    }
+}
