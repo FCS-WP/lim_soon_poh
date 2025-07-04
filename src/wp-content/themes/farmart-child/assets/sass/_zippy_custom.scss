@@ -2,12 +2,25 @@
     color: var(--e-global-color-primary) !important;
 }
 
+.default-enquire-button,
+ul.products li.product .product-button .quantity_button {
+    background-color: var(--e-global-color-primary) !important;
+    color: white !important;
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+}
+
+.default-enquire-button .farmart-svg-icon {
+    color: white !important;
+    margin-right: 5px;
+}
+
 ul.products {
     li.product {
         .woocommerce-loop-product__title {
             a {
                 color: var(--e-global-color-primary) !important;
-
             }
         }
     }
