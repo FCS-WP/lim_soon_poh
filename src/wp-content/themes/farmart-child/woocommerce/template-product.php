@@ -703,7 +703,7 @@ class Farmart_WooCommerce_Template_Product {
 			wc_get_product_category_list( $product->get_id(), ', ', '<span class="posted_in">' . _n( 'Category:', 'Categories:', count( $product->get_category_ids() ), 'farmart' ) . ' ', '</span>' ),
 			wc_get_product_tag_list( $product->get_id(), ', ', '<span class="tagged_as">' . _n( 'Tag:', 'Tags:', count( $product->get_tag_ids() ), 'farmart' ) . ' ', '</span>' )
 		);
-		echo do_shortcode('[add_to_enquiry_button]');
+
 	}
 
 

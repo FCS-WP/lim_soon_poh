@@ -1,0 +1,62 @@
+/* Base styles */
+.custom-products-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--custom-cols, 3), 1fr);
+}
+
+/* Elementor adds these classes */
+.custom-grid-cols-1 .custom-products-grid {
+  --custom-cols: 1;
+}
+
+.custom-grid-cols-2 .custom-products-grid {
+  --custom-cols: 2;
+}
+
+.custom-grid-cols-3 .custom-products-grid {
+  --custom-cols: 3;
+}
+
+.custom-grid-cols-4 .custom-products-grid {
+  --custom-cols: 4;
+}
+
+.custom-grid-cols-5 .custom-products-grid {
+  --custom-cols: 5;
+}
+
+.custom-grid-cols-6 .custom-products-grid {
+  --custom-cols: 6;
+}
+
+/* Optional spacing fallback if browser doesn't support gap */
+.custom-product-item {
+  margin-bottom: 20px;
+}
+
+.custom-product-item {
+  border: 1px solid #eee;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.enquire-button {
+  background: #0073aa;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.enquire-button:hover {
+  background: #005f8d;
+}
+
+.success-message {
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+}

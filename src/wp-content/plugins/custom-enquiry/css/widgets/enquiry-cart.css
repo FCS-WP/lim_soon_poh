@@ -1,0 +1,25 @@
+.enquiry-cart-iconbox {
+    position: relative;
+    display: inline-block;
+}
+
+.enquiry-cart-icon svg {
+    display: block;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    font-size: inherit;
+}
+
+.enquiry-cart-badge {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    background: var(--e-global-color-primary);
+    color: white;
+    font-size: 10px;
+    line-height: 1;
+    padding: 2px 6px;
+    border-radius: 20px;
+    font-weight: bold;
+}
